@@ -1,265 +1,167 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right
+    about: True
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Harsha Priya Ganapathy
+    tagline: Software Engineer | AI/ML Enthusiast
+    email: harshapriyag22@gmail.com
+    phone: +(1) 5714649222
+    linkedin: linkedin.com/in/harshapriya123
+    github: github.com/harshapriyag123
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
-
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
-
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
-
-career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        - degree: Masters of Engineering in Computer Science
+          university: College of Engineering, Guindy, Anna University Chennai, IND
+          timeframe: Jul. 2019 – May 2021
+          details: |
+              Specialization: Minor in AI and ML
 
-experiences:
-    title: Experiences
+        - degree: Bachelor’s in Technology
+          university: St. Joseph’s Institute of Technology, Anna University Chennai, IND
+          timeframe: Jul. 2014 – May 2018
+          details: |
+              Specialization: Minor in Information Technology
+
+experience:
+    title: Experience
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        - role: Research Scholar
+          timeframe: Jan 2024 – Jun 2024
+          company: BITS Pilani, Hyderabad Campus Hyderabad, IND
+          responsibilities: |
+              - Developing Course Content: Design and develop curriculum, instructional materials, and content for courses in AI/ML, IoT, and Cybersecurity, ensuring alignment with industry standards and best practices.
+              - Research and Analysis: Research emerging trends, technologies, and methodologies in AI/ML, IoT, and Cybersecurity to incorporate relevant and up-to-date content into the curriculum.
+              - Content Review and Enhancement: Review existing course content and continuously enhance it to improve the learning experience and ensure relevance and accuracy.
+              - Collaboration with Subject Matter Experts (SMEs): Work closely with SMEs, instructors, and industry professionals to gather input, insights, and feedback for curriculum development and improvement.
+              - Instructional Design: Apply instructional design principles and methodologies to create engaging, interactive, and effective learning experiences for students.
+              - Assessment Development: Develop assessments, quizzes, and projects to measure student learning outcomes and provide feedback for improvement.
+              - Quality Assurance: Ensure the quality and integrity of the curriculum by conducting quality assurance checks, reviewing course materials, and ensuring compliance with regulatory standards and accreditation requirements.
+              - Training and Support: Provide training and support to instructors, faculty, and staff on the effective use of curriculum materials and instructional technologies.
+              - Stakeholder Engagement: Engage with stakeholders, including students, faculty, industry partners, and academic institutions, to gather feedback and insights for continuous improvement of the curriculum.
+              - Participating in agile development processes and contributing to improving the team’s development practices.
+              - Professional Development: Stay updated with the latest trends, technologies, and best practices in AI/ML, IoT, and Cybersecurity through continuous learning and professional development activities.
+          skills: Machine Learning, Deep Learning, Network Security, IoT, Artificial Intelligence (AI)
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - role: Software Engineer
+          timeframe: May 2023 – Jan 2024
+          company: ti steps Chennai, IND
+          responsibilities: |
+              - Developing and Testing new user-facing features using React.js and JIRA.
+              - Building reusable components and front-end libraries for future use.
+              - Translating designs and wireframes into high-quality code.
+              - Optimizing components for maximum performance across various web-capable devices and browsers.
+              - Conducting code reviews and ensuring the quality and maintainability of the code base.
+              - Collaborating with back-end developers and integrating front-end components with the server-side logic.
+              - Implementing and maintaining unit and integration tests to ensure the reliability and robustness of the application.
+              - Troubleshooting and debugging issues reported by users and taking appropriate actions to resolve them.
+              - Staying up-to-date with the latest trends and best practices in front-end development and implementing them in projects.
+              - Participating in agile development processes and contributing to improving the team’s development practices.
+              - Writing and Execution of test cases in Q-metry.
+          skills: Test Execution, Performance Testing, Test Scripts, Test Planning, Testing Tools, Jira, Quality Assurance, Qmetry, REST APIs, Jenkins, Python, SQL, HTML, Bootstrap, CSS, postman, Git, Git BASH, Gitlab, GitHub, Bitbucket, React, Cassandra, Docker, PostgreSQL, Next.js, React.js, HTML5, C++, Java, JavaScript, Artificial Intelligence (AI), AWS
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - role: Assistant Programmer
+          timeframe: Feb. 2021 – Apr. 2022
+          company: Tamil Nadu e-Governance Agency Chennai, IND
+          responsibilities: |
+              - Expertise in requirements gathering, organizing meetings with clients, and vendors, and formulating UI/UX design.
+              - Implementation of UI/UX design for web apps using paperwork and WordPress, etc.
+              - Development of web apps using PHP, HTML, CSS, JS, Postgres DB.
+              - Development of web apps using latest technologies like Angular, Django.
+              - Expertise in Server handling for deployment of Apps.
+              - Expertise in Manual Testing to check the functionalities implemented.
+              - Leading team with client requirements satisfaction and vendor management alignment with team requirements satisfaction.
+              - Organizing meetings with government officials and clients for efficient delivery of projects and training them.
+              - Expertise in data cleaning and analysis of data using Excel, and PowerBI dashboards.
+              - Expertise in Geographical Information System mapping using open layers.
+              - Tools Used: QGIS, ArcGIS, Git, VS Code
+          skills: Test Execution, Performance Testing, Test Scripts, Test Planning, Testing Tools, AngularJS, Docker, PostgreSQL, Laravel, PHP, HTML5, C++, Python, Front-End Development, JavaScript, Full-Stack Development, Data Analysis, Artificial Intelligence (AI), AWS, Machine Learning
+
+        - role: Backend Forum Community Developer
+          timeframe: Nov. 2020 – Feb. 2021
+          company: AI Design Chennai, IND
+          responsibilities: |
+              - Developed Client interaction chat forum.
+              - Developed company website.
+              - Worked with cutting-edge technologies like deep learning coded in Python language for customized web app development for visualization of car models using the Mayavi tool.
+              - Expertise in manual and functional testing of development features and bugs.
+          skills: Python, Full-Stack Development, Data Analysis, Artificial Intelligence (AI), Machine Learning
+
+        - role: Software Development Engineer
+          timeframe: Jan. 2018 – Mar. 2019
+          company: embedUR systems Chennai, IND
+          responsibilities: |
+              - Fixing the issues reported in ARRIS cable modems.
+              - New feature developmental implementations using Networking Technologies and back-end technologies as per client requirements.
+              - Developmental implementation of GUI using Model view controller(MVC).
+          skills: Networking, Test Execution, Lua, Luci, Scripts, CSS, Git, PHP, HTML5, C, C++, Python, Front-End Development, JavaScript, Full-Stack Development
+
+        - role: Web Development Intern and Learning
+          timeframe: Jun. 2014 – May 2016
+          company: DLK Technologies Chennai, IND
+          responsibilities: |
+              - Learned web development concepts and trained to Implement CADD websites.
+              - Hands-on experience with Photoshop frameworks.
+              - Expertise in manual testing and functional testing.
+          skills: Functional Testing, Manual Testing, PHP, Front-End Development, HTML, CSS, JavaScript, MySQL, xamp database server
 
 projects:
-    title: Projects
+    title: College Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+        Projects undertaken during academic tenure.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        - title: Predicting Future Activities Using Deep Neural Network
+          timeframe: Apr. 2021
+          description: >
+              Developed an end-to-end neural network model that deciphers human behaviors to predict their future paths or trajectories and their future activities together from videos.
+          technologies: Python
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        - title: To predict which part of the image is memorable?
+          timeframe: Nov. 2020
+          description: >
+              To predict which part of the image is memorable using Computer Vision Techniques using Matlab.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - title: IoT Based Water Management System
+          timeframe: Apr. 2018
+          description: >
+              Developed IoT Based Water Management system for the purpose of conservation of depleting water resources using IoT technologies.
+          technologies: Python, Data mining, Database
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+certifications:
+    title: Certifications
+    list:
+        - name: AI Tools Workshop
+          timeframe: Mar. 2024
+          organization: [Organization Name]
+          details: >
+              Introduced to important AI tools only like ChatGPT and Dall-E-2. Both tools play a very important role in businesses like healthcare, finance, marketing, etc.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - name: Data Analytics Bootcamp
+          timeframe: Mar. 2023
+          organization: [Organization Name]
+          details: >
+              Developed knowledge of essential data analysis skills and used spreadsheets and programming languages to organize and analyze data.
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        - name: Data Analytics, Storage, Mining and Visual Big Data Technologies
+          timeframe: Aug. 2023
+          organization: [Organization Name]
+          details: >
+              Learned the different technologies in big data.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        - name: Analyzing and Visualizing Data with Microsoft Power BI
+          timeframe: Mar. 2022
+          organization: [Organization Name]
+          details: >
+              Learned Analyzing and Visualizing Data with Microsoft Power BI.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        - name: Complete SQL from Scratch to Hero Bootcamp Postgres
+          timeframe: Nov. 2021
+          organization: [Organization Name]
+          details: >
+              Learned the SQL technologies.
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+technical-skills:
+    title: Technical Skills
+    languages: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS
