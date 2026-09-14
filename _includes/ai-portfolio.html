@@ -1,0 +1,61 @@
+{% assign d = site.data.data %}
+<section class="ai-hero" id="top">
+  <div class="ai-orb ai-orb-one"></div><div class="ai-orb ai-orb-two"></div>
+  <div class="ai-hero-inner">
+    <p class="ai-kicker">AI • RESEARCH • ENGINEERING</p>
+    <h1>{{ d.sidebar.name }}</h1>
+    <h2>{{ d.sidebar.tagline }}</h2>
+    <p class="ai-summary">{{ d.career-profile.summary }}</p>
+    <div class="ai-actions">
+      <a class="ai-btn primary" href="mailto:{{ d.sidebar.email }}">Contact me</a>
+      <a class="ai-btn" href="https://{{ d.sidebar.github }}" target="_blank" rel="noopener">GitHub</a>
+      <a class="ai-btn" href="https://{{ d.sidebar.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      <button class="ai-btn" onclick="window.print()">Download / Print CV</button>
+    </div>
+    <div class="ai-signal-grid">
+      <div><strong>5</strong><span>Research publications / preprints</span></div>
+      <div><strong>4+</strong><span>Invited talks</span></div>
+      <div><strong>2026</strong><span>Technovation judge & GSSoC ambassador</span></div>
+      <div><strong>AI + GIS</strong><span>Public health, safety & trustworthy systems</span></div>
+    </div>
+  </div>
+</section>
+
+<nav class="ai-nav">
+  <a href="#research">Research</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#leadership">Leadership</a><a href="#speaking">Speaking</a><a href="#skills">Skills</a>
+</nav>
+
+<main class="ai-shell">
+<section class="ai-section" id="research"><div class="section-heading"><span>01</span><h3>Research & Publications</h3></div>
+<div class="ai-grid two">
+{% for p in d.publications.papers %}
+<article class="ai-card publication"><p class="eyebrow">{{ p.conference }}</p><h4>{{ p.title }}</h4><p>{{ p.authors }}</p>{% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">Read publication ↗</a>{% endif %}</article>
+{% endfor %}
+</div></section>
+
+<section class="ai-section" id="projects"><div class="section-heading"><span>02</span><h3>Selected AI & Research Projects</h3></div>
+<div class="ai-grid two">
+{% for p in d.projects.assignments %}
+<article class="ai-card project"><div class="card-top"><p class="eyebrow">{{ p.timeframe }}</p><span class="spark">✦</span></div><h4>{{ p.title }}</h4><p>{{ p.description }}</p>{% if p.technologies %}<p class="tech">{{ p.technologies }}</p>{% endif %}{% if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener">Explore project ↗</a>{% endif %}</article>
+{% endfor %}
+</div></section>
+
+<section class="ai-section" id="experience"><div class="section-heading"><span>03</span><h3>Professional Experience</h3></div>
+<div class="timeline">
+{% for e in d.experience.info %}<article class="timeline-item"><div class="dot"></div><div class="timeline-card"><div class="role-line"><div><h4>{{ e.role }}</h4><p class="company">{{ e.company }}</p></div><p class="time">{{ e.timeframe }}</p></div><div class="richtext">{{ e.responsibilities | markdownify }}</div>{% if e.skills %}<p class="tech">{{ e.skills }}</p>{% endif %}</div></article>{% endfor %}
+</div></section>
+
+<section class="ai-section" id="leadership"><div class="section-heading"><span>04</span><h3>Open Source, Judging & Leadership</h3></div>
+<div class="ai-grid two">{% for o in d.oss.contributions %}<article class="ai-card"><h4>{{ o.title }}</h4><p>{{ o.details }}</p>{% if o.link %}<a href="{{ o.link }}" target="_blank" rel="noopener">View contribution ↗</a>{% endif %}</article>{% endfor %}</div></section>
+
+<section class="ai-section" id="speaking"><div class="section-heading"><span>05</span><h3>Invited Talks & Technical Speaking</h3></div>
+<div class="ai-grid two">{% for s in d.speaking.items %}<article class="ai-card compact"><p class="eyebrow">{{ s.timeframe }}</p><h4>{{ s.title }}</h4><p>{{ s.organization }}</p></article>{% endfor %}</div></section>
+
+<section class="ai-section"><div class="section-heading"><span>06</span><h3>Education & Recognition</h3></div>
+<div class="ai-grid two"><div class="stack">{% for e in d.education.info %}<article class="ai-card compact"><p class="eyebrow">{{ e.timeframe }}</p><h4>{{ e.degree }}</h4><p>{{ e.university }}</p><div class="richtext">{{ e.details | markdownify }}</div></article>{% endfor %}</div><div class="stack">{% for a in d.achievements.items %}<article class="ai-card compact"><p class="eyebrow">{{ a.timeframe }}</p><h4>{{ a.title }}</h4>{% if a.details %}<p>{{ a.details }}</p>{% endif %}</article>{% endfor %}</div></div></section>
+
+<section class="ai-section" id="skills"><div class="section-heading"><span>07</span><h3>Technical Stack</h3></div>
+<div class="skill-cloud"><div><b>Languages</b><span>{{ d.technical-skills.languages }}</span></div><div><b>AI / ML</b><span>{{ d.technical-skills.ai }}</span></div><div><b>GIS / Data</b><span>{{ d.technical-skills.gis }}</span></div><div><b>Application</b><span>{{ d.technical-skills.web }}</span></div><div><b>Cloud / DevOps</b><span>{{ d.technical-skills.cloud }}</span></div></div></section>
+
+<section class="ai-cta"><p class="ai-kicker">BUILDING USEFUL, TRUSTWORTHY INTELLIGENCE</p><h3>Research-minded engineering with real-world deployment.</h3><p>Open to AI/ML engineering, research, applied data science, geospatial intelligence, trustworthy AI, and collaborative technical opportunities.</p><a class="ai-btn primary" href="mailto:{{ d.sidebar.email }}">Start a conversation</a></section>
+</main>
